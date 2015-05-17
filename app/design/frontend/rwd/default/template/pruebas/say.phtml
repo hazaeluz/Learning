@@ -1,1 +1,14 @@
 Hola Mundo
+<?php
+$dropdown = $this->obtenerValores();
+?>
+<select name='Nombre' >
+    <option value=''>Select</option>
+    <?php
+    foreach ($dropdown as $k=>$v) {
+        ?>
+        <option value='<?php echo $k ?>_<?php echo $v; ?>'><?php echo $v ?></option>
+    <?php
+    }
+    ?>
+</select>
