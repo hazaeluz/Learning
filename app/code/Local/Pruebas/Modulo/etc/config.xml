@@ -22,4 +22,25 @@
             </lesson>
         </helpers>
     </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <helloworld_options>
+                                            <title>Hello World Config Options</title>
+                                        </helloworld_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>

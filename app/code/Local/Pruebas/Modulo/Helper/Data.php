@@ -6,6 +6,6 @@
  * Time: 08:31 PM
  */
 
-class Pruebas_Modulo_Helper_Data extends Marge_Core_Helper_Abstract {
+class Pruebas_Modulo_Helper_Data extends Mage_Core_Helper_Abstract {
 
 } 
